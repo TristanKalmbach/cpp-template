@@ -72,4 +72,5 @@ datapath: /usr/[local/]share/<projectname>
  [MIT License](http://opensource.org/licenses/MIT).
 
 ## Coverity pushes
+1.
 
