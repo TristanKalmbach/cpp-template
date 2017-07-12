@@ -108,6 +108,12 @@ if ("${CMAKE_CXX_COMPILER_ID}" MATCHES "MSVC")
         >
 
         # No manual c++11 enable for MSVC as all supported MSVC versions for cmake-init have C++11 implicitly enabled (MSVC >=2013)
+
+
+        # For debugging with lldb
+        $<$<CONFIG:Debug>:
+            -g
+        >
     )
 endif ()
 
